@@ -10,4 +10,5 @@ The project implemented basic operations mentioned in the Bitcask paper, such as
 
 Finally, extensive tests of gocaskDB were conducted, including unit tests, functional tests, and benchmark test. The test results show that all gocaskDB's functions work correctly and that the optimisations made to gocaskDB actually result in performance improvements. Benchmark test against popular KV databases such as GoLevelDB and boltDB shows that gocaskDB can deliver performance comparable to industrial databases under various workloads. 
 
-
+# Examples
+See examples in bitcask-go/examples/basic_operation.go
